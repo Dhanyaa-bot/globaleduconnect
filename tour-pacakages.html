@@ -60,7 +60,7 @@
 						<div class="pbmit-header-content-wrapper d-flex justify-content-between align-items-center">
 							<div class="site-branding">
 								<h1 class="site-title">
-										<a href="index.php">
+										<a href="index.html">
 											<img class="logo-img" src="images/header.png" alt="">
 										</a>
 									</h1> </div>
@@ -80,12 +80,12 @@
 														</svg>
 													</span>
 												<ul class="navigation clearfix">
-													<li class="<?php if($currentPage =='index'){echo 'active';}?> "> <a href="index.php">Home</a> </li>
-													<li class="<?php if($currentPage =='about'){echo 'active';}?>"> <a href="about.php">About Us</a> </li>
-												    <li class="<?php if($currentPage =='tour'){echo 'active';}?>"> <a href="tour-pacakages.php">Explore Tours</a> </li>
-													<li class="<?php if($currentPage =='whatsnew'){echo 'active';}?>"> <a href="whats-new.php">What's New</a> </li>
+													<li class=" "> <a href="index.html">Home</a> </li>
+													<li class=""> <a href="about.html">About Us</a> </li>
+												    <li class=""> <a href="tour-pacakages.html">Explore Tours</a> </li>
+													<li class=""> <a href="whats-new.html">What's New</a> </li>
 										
-													<li class="<?php if($currentPage =='contact'){echo 'active';}?>"><a href="contact.php">Contact Us</a></li>
+													<li class=""><a href="contact.html">Contact Us</a></li>
 												</ul>
 											</div>
 										</div>
@@ -97,7 +97,7 @@
 							<!--<a class="pbmit-btn pbmit-btn-global hd-btn" href="#"> <span class="pbmit-button-content-wrapper">
 										<span class="pbmit-button-text">+13653664510 </span> </span>
 							</a>-->
-							<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.php"> <span class="pbmit-button-content-wrapper">
+							<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
 										<span class="pbmit-button-text">Get In Touch</span> </span>
 							</a>
 						</div>
@@ -106,103 +106,771 @@
 			</div>
 		</div>
 	</header>
-<!-- Title Bar -->
-<div class="pbmit-title-bar-wrapper" style="background-image:url(images/resources/tours.jpg);">
-    <div class="container">
-        <div class="pbmit-title-bar-content">
-            <div class="pbmit-title-bar-content-inner">
-                <div class="pbmit-tbar">
-                    <div class="pbmit-tbar-inner container">
-                        <h1 class="pbmit-tbar-title">Explore Tours</h1>
+	<!-- Title Bar -->
+	<div class="pbmit-title-bar-wrapper" style="background-image:url(images/resources/tours.jpg);">
+		<div class="container">
+			<div class="pbmit-title-bar-content">
+				<div class="pbmit-title-bar-content-inner">
+					<div class="pbmit-tbar">
+						<div class="pbmit-tbar-inner container">
+							<h1 class="pbmit-tbar-title">Explore Tours</h1> </div>
+					</div>
+					<div class="pbmit-breadcrumb">
+						<div class="pbmit-breadcrumb-inner"> <span>
+									<a title="" href="#" class="home"><span>Global EdConnect</span></a>
+							</span> <span class="sep">
+									<i class="pbmit-base-icon-angle-right"></i>
+								</span> <span><span class="post-root post post-post current-item">  Explore Tour Details</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="tour-package-inner sec-pad">
+		<div class="container">
+			<div class="row g-0 align-items-center justify-content-between">
+				<div class="col-xl-5 col-md-12 pbmit-tab-img"> 
+				<?php if($id == '1'){ ?>
+				<img src="images/tours-inner/canada.jpeg" class="img-fluid" alt=""> 
+				<?php } ?>
+					<?php if($id == '2'){ ?>
+				<img src="images/tours-inner/usa.jpeg" class="img-fluid" alt=""> 
+				<?php } ?>
+				<?php if($id == '3'){ ?>
+				<img src="images/tours-inner/japan2.jpeg" class="img-fluid" alt=""> 
+				<?php } ?>
+				<?php if($id == '4'){ ?>
+				<img src="images/tours-inner/china.jpg" class="img-fluid" alt=""> 
+				<?php } ?>
+				<?php if($id == '5'){ ?>
+				<img src="images/tours-inner/dubai.jpg" class="img-fluid" alt=""> 
+				<?php } ?>
+				<?php if($id == '6'){ ?>
+				<img src="images/tours-inner/canada2.jpg" class="img-fluid" alt=""> 
+				<?php } ?>
+				<?php if($id == '7'){ ?>
+				<img src="images/tours-inner/Singapore.jpg" class="img-fluid" alt=""> 
+				<?php } ?>
+				<?php if($id == '8'){ ?>
+				<img src="images/tours-inner/Thailand.jpg" class="img-fluid" alt=""> 
+				<?php } ?>
+				<?php if($id == '9'){ ?>
+				<img src="images/tours-inner/UK.jpg" class="img-fluid" alt=""> 
+				<?php } ?>
+				
+				</div>
+				<div class="col-xl-6 col-md-12 pbmit-tab-list">
+					<div class="pbmit-heading-subheading wow fadeInUp animated" data-wow-delay="1s" data-wow-duration="1.5s ">
+						<?php if($id == '1'){ ?><h2 class="pbmit-title blue"> Canada </h2><?php } ?>
+						<?php if($id == '2'){ ?><h2 class="pbmit-title blue"> USA </h2><?php } ?>
+						<?php if($id == '3'){ ?><h2 class="pbmit-title blue"> Japan </h2><?php } ?>
+						<?php if($id == '4'){ ?><h2 class="pbmit-title blue"> China </h2><?php } ?>
+						<?php if($id == '5'){ ?><h2 class="pbmit-title blue"> Dubai</h2><?php } ?>
+						<?php if($id == '6'){ ?><h2 class="pbmit-title blue"> Ottawa and Montreal </h2><?php } ?>
+						<?php if($id == '7'){ ?><h2 class="pbmit-title blue"> Singapore </h2><?php } ?>
+						<?php if($id == '8'){ ?><h2 class="pbmit-title blue"> Thailand </h2><?php } ?>
+						<?php if($id == '9'){ ?><h2 class="pbmit-title blue"> UK </h2><?php } ?>
+						<?php if($id == '1'){ ?><h6>Toronto, Canada </h6> </div>
+					<p>Toronto is Canada’s largest city and a vibrant cultural and financial hub. Located on the shores of Lake Ontario, it is known for its diverse population, iconic skyline, and world-class attractions. The city offers a mix of modern architecture, green spaces, shopping, and diverse neighborhoods, making it a dynamic destination for both learning and leisure.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+					<?php } ?>
+					<?php if($id == '2'){ ?><h6>Washington, USA </h6> </div>
+					<p>Washington, D.C., the U.S. capital, is a dynamic city known for its rich history, political significance, and cultural landmarks. With iconic monuments like the Lincoln Memorial and Washington Monument, world-class museums including those in the Smithsonian Institution, and the center of U.S. governance at the U.S. Capitol and White House, D.C. offers a comprehensive learning experience.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+					<?php } ?>
+					<?php if($id == '3'){ ?></div>
+					<p>Japan is an island nation located in East Asia, known for its rich cultural heritage, cutting-edge technology, and stunning natural beauty. The country is famous for its unique blend of ancient traditions and modern advancements. From ancient temples and shrines to towering skyscrapers, Japan offers a diverse range of experiences. The bustling city of Tokyo is a hub of innovation, fashion, and technology, while Kyoto is known for its historic sites, traditional tea ceremonies, and beautiful gardens. Osaka, known for its vibrant nightlife and culinary delights, is another major city that combines modern life with rich cultural traditions.</p>
+                    <p>Japan is renowned for its efficient public transportation, particularly the Shinkansen (bullet train), which connects major cities at remarkable speeds. The country is also known for its natural landscapes, including mountains, forests, hot springs (onsen), and scenic coastlines.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+					<?php } ?>
+					<?php if($id == '4'){ ?></div>
+					<p>Here’s a 5-day study tour itinerary for Beijing and Shanghai, blending historical learning, cultural exploration, and educational experiences: China, with its ancient history and rapid modernization, offers a unique blend of cultural heritage and technological innovation. From the Great Wall and the Forbidden City to cutting-edge universities and industrial hubs, China provides rich educational opportunities.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+                   <?php } ?>
+				   <?php if($id == '5'){ ?></div>
+					<p>The UAE (United Arab Emirates) is a modern, luxurious country known for its impressive skyline, including the world’s tallest building, the Burj Khalifa. It blends rich Arabian culture with cutting-edge technology, offering everything from historic desert landscapes to ultramodern cities like Dubai and Abu Dhabi. The UAE is also renowned for its lavish shopping malls, fine dining, and vibrant cultural scenes.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+                   <?php } ?>
+				   <?php if($id == '6'){ ?><h6>Ottawa and Montreal, Canada</h6></div>
+					<p>Ottawa, Canada's capital, is known for its historical landmarks alongside world-class museums and natural beauty. The city blends political significance with cultural offerings, making it an essential part of Canada’s heritage. Montreal, Quebec’s largest city, offers a vibrant mix of French and English cultures, stunning architecture, and lively festivals. Known for its arts scene, culinary delights, and diverse neighborhoods, Montreal is a cultural hub with a rich European influence.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+                   <?php } ?>
+				   <?php if($id == '7'){ ?></div>
+					<p>Arrive in Singapore and visit the National University of Singapore (NUS) to explore the campus and learn about its academic programs. Afterward, immerse yourself in the vibrant Chinatown by visiting the Chinatown Heritage Centre and experiencing the rich cultural history. End the day by enjoying the stunning views from Marina Bay Sands and watching the Spectra Light Show by the bay.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+                   <?php } ?>
+				   <?php if($id == '8'){ ?></div>
+					<p>Thailand is a vibrant country in Southeast Asia known for its rich culture, stunning landscapes, and warm hospitality. Famous for its beautiful beaches, lush jungles, and historic temples, it offers a blend of modern cities like Bangkok and serene destinations like Chiang Mai and Phuket. Thai cuisine is renowned worldwide for its bold flavors, featuring dishes like Pad Thai and Tom Yum. Whether exploring ancient temples, enjoying the bustling markets, or relaxing on tropical islands, Thailand offers a unique and unforgettable experience.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+                   <?php } ?>
+				   <?php if($id == '9'){ ?><h6>London, Oxford, and Manchester</h6></div>
+					<p>7-day study tour itinerary for London, Oxford, and Manchester and learn about the UK's media industry and innovations in broadcasting and digital media.</p>
+					<a class="pbmit-btn pbmit-btn-outline hd-btn" href="contact.html"> <span class="pbmit-button-content-wrapper">
+						<span class="pbmit-button-text">Connect Now</span> </span>
+					</a>
+                   <?php } ?>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="exploretour-deails sec-pad">
+		<div class="container">
+			<div class="pbmit-heading-subheading wow fadeInUp animated" data-wow-delay="1s" data-wow-duration="1.5s ">
+			<?php if($id == '1'){ ?>
+				<h2 class="pbmit-title blue">7-day study tour itinerary for Toronto </h2></div>
+			<div class="row g-0 align-items-center ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li>Arrive and check-in.</li>
+						<li>Visit CN Tower for panoramic views.</li>
+						<li>Explore St. Lawrence Market for local food and cultural immersion.</li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li>Tour University of Toronto campus and Robarts Library</li>
+						<li>Visit the Royal Ontario Museum for art and history exhibits.</li>
+					</ul>
+					<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li>Explore the Art Gallery of Ontario </li>
+						<li>Visit Toronto Metropolitan University.</li>
+						<li> Evening at Distillery District for local dining and culture.</li>
+					</ul>
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li>Visit Ontario Science Centre for interactive exhibits.</li>
+						<li>Explore Kensington Market for multicultural experiences</li>
+					</ul>
+					<h6>Day 5: </h6>
+					<ul class="list-items">
+						<li>Day trip to Niagara Falls for sightseeing and exploration</li>
+					</ul>
+					<h6>Day 6: </h6>
+					<ul class="list-items">
+						<li>Visit Amazon warehouse facility to get exposure to state of the art technology.</li>
+						<li>Ripley’s Aquarium of Canada for marine life exhibits.</li>
+					</ul>
+					<h6>Day 7: </h6>
+					<ul class="list-items">
+						<li>Volunteering at community services.</li>
+						<li>Farewell dinner and interactive session.</li>
+					</ul>
+				</div>
+			</div>
+			<?php } ?>
+			
+			<?php if($id == '2'){ ?>
+				<h2 class="pbmit-title blue">A 4-day study tour of Washington, D.C. </h2></div>
+			<div class="row g-0 align-items-center ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li>Arrive in D.C., check-in and Orientation session. and take a tour of the National Mall.</li>
+						<li>Including the Washington Monument and Lincoln Memorial. </li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li>Visit the U.S. Capitol and Smithsonian National Museum of American History.</li>
+                       <li>	Tour the outside of the White House and spend time at the gardens.</li>
+					</ul>
+					
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+				<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li>Visit Washington University for a campus tour, then explore the National Air and Space Museum and the Museum of Natural History.</li>
+						
+					</ul>
+					<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li>Visit University of Maryland for a campus tour, then spend the day in cultural exchange program</li>
+					</ul>
+					
+				</div>
+			</div>
+			<?php } ?>
+			<?php if($id == '3'){ ?>
+				<h2 class="pbmit-title blue">A 7-day study tour to Japan </h2></div>
+			<div class="row g-0 align-items-center ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li>Arrive in Tokyo. Visit Senso-ji Temple and explore Shibuya Crossing. </li>
+						<li>Enjoy Japanese izakaya dining and try dishes like yakitori and tempura.</li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li>Visit the Imperial Palace and Meiji Shrine, then explore Harajuku for trendy fashion. </li>
+						<li>Experience a traditional tea ceremony at a local tea house.</li>
+					</ul>
+						<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li>Visit The University of Tokyo for a student-led tour. Explore the Miraikan Museum and Odaiba. Participate in a sushi-making workshop.</li>
+						
+					</ul>
+					<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li>Travel to Kyoto via the Shinkansen. Visit Kinkaku-ji (Golden Pavilion) and Ryoan-ji Temple. </li>
+						<li>Explore the historic Gion District and experience a Geisha performance or Japanese tea ceremony.</li>
+					</ul>
+					
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+				<h6>Day 5: </h6>
+					<ul class="list-items">
+						<li>Visit Fushimi Inari Shrine and walk through its iconic torii gate path. </li>
+						<li>Explore Nijo Castle and participate in a calligraphy workshop.</li>
+						
+					</ul>
+					<h6>Day 6: </h6>
+					<ul class="list-items">
+						<li>Travel to Osaka. Visit Osaka University and take a campus tour. </li>
+						<li>Explore Dotonbori Street and enjoy local  street foods like takoyaki and okonomiyaki.</li>
+                         <li>End the day with a Japanese cooking class.</li>
+						
+					</ul>
+					<h6>Day 7: </h6>
+					<ul class="list-items">
+						<li>Visit Tsukuba Space Center and spend the evening in cultural exchanges with local students. </li>
+						
+					</ul>
+				</div>
+			</div>
+			<?php } ?>
+			<?php if($id == '4'){ ?>
+				<h2 class="pbmit-title blue">5-day study tour  </h2></div>
+			<div class="row g-0 ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li><b>Arrival in Beijing – Iconic Sights and Introduction to Chinese History</b> </li>
+						<li>Arrive in Beijing, China’s capital, and begin your study tour with a visit to the Forbidden City (Palace Museum). This UNESCO World Heritage site offers students a chance to learn about China’s imperial history, architecture, and art. Afterward, head to Tiananmen Square, one of the largest public squares in the world, where students can explore the significance of this historical site. In the evening, take a walk around the Wangfujing Street shopping district and experience the local cuisine and vibrant street food culture.</li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li><b>Beijing – Great Wall and Cultural Immersion</b></li>
+						<li>In the morning, visit the Great Wall of China, one of the world’s most famous and historically significant landmarks. Students will have a chance to discuss the history of the wall, its role in Chinese defense, and its cultural symbolism. In the afternoon, explore the Temple of Heaven, where emperors once prayed for good harvests. Students can engage in a discussion about Chinese religious practices and traditions. Wrap up the day with a visit to the Summer Palace, where students can learn about traditional Chinese gardens and the Qing Dynasty's imperial lifestyle.</li>
+					</ul>
+						<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li><b>Beijing to Shanghai – Modern China and Urban Development</b></li>
+						<li>Fly to Shanghai, China’s financial and cultural hub. Start with a visit to the Shanghai Museum, which offers a deep dive into Chinese art, history, and culture through its vast collection of ancient artifacts, ceramics, and calligraphy. Afterward, head to People's Square and Nanjing Road, the city’s busiest shopping street, to observe Shanghai's modern urban development. In the evening, take a walk along the Bund, a historic waterfront area that highlights Shanghai’s colonial past and its transformation into a global city.</li>
+						
+					</ul>
+					
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li><b>Shanghai – University Visit and Technological Innovation</b> </li>
+						<li>Visit Fudan University or Shanghai Jiao Tong University for a tour and academic exchange, where students can interact with local students and faculty, learn about China’s educational system, and explore different fields of study. In the afternoon, visit the Shanghai Science and Technology Museum, where students can engage with interactive exhibits on innovation, space exploration, and technology. This offers an educational experience on China’s role in global technological development. Later, explore the Yu Garden, a classical Chinese garden showcasing traditional landscaping and architecture.</li>
+					</ul>
+				<h6>Day 5: </h6>
+					<ul class="list-items">
+						<li><b>Shanghai – Cultural Experience and Departure</b> </li>
+						<li>On your final day, visit Xintiandi, a historical area that blends traditional Shikumen-style architecture with modern cafes, galleries, and shops. This provides insight into Shanghai’s evolution from a colonial port city to a modern metropolis. Visit Tianzifang, an arts and crafts district in the French Concession, explore Shanghai Tower for panoramic views of the city, followed by a final educational discussion on Shanghai’s rapid growth and role as a global city before heading to the airport for your departure.</li>
+						
+					</ul>
+				</div>
+			</div>
+			<?php } ?>
+			<?php if($id == '5'){ ?>
+				<h2 class="pbmit-title blue">5-day study tour  </h2></div>
+			<div class="row g-0 ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li><b>Arrival in Dubai – Iconic Landmarks and Relaxation</b> </li>
+						<li>Explore the campus of American University in Dubai. Visit Burj Khalifa and later head to Jumeirah Beach for a relaxing time by the water with beautiful views of the Burj Al Arab. Visit The Dubai Mall for shopping, entertainment, and dining. </li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li><b>Atlantis Palm, Gold Souk & Palm Jumeirah</b></li>
+						<li>Start the day with a visit to Atlantis The Palm. Spend the morning exploring Aquaventure Waterpark (optional). Visit the View on level 52 of the iconic Palm Tower or the top of Nakheel mall that offers panoramic, 360-degree views of Palm Jumeirah, the Arabian Gulf, and beyond. Take the Palm monorail for a ride through the palm islands. Visit University of Dubai or BITS Dubai campus.</li>
+					</ul>
+						<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li><b>Desert Safari and Traditional Experiences</b></li>
+						<li>Visit Gold Souk and Deira district. Get ready for Desert Safari adventure and enjoy dune bashing and a thrilling camel ride. Experience activities like sandboarding and get a taste of traditional Emirati culture with a BBQ dinner in the desert. Enjoy live entertainment such as belly dancing.</li>
+						
+					</ul>
+					
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li><b>Day Trip to Abu Dhabi</b> </li>
+						<li>Take a day trip to Abu Dhabi. Visit the Sheikh Zayed Grand Mosque. This stunning mosque is one of the largest in the world, with beautiful architecture and peaceful gardens. Explore the Heritage Village, a cultural spot that showcases traditional Bedouin life and artifacts. Visit the University of Abu Dhabi.</li>
+					</ul>
+				<h6>Day 5: </h6>
+					<ul class="list-items">
+						<li><b>Fun in Dubai </b> </li>
+						<li>Visit the Dubai Miracle Garden and the Global Village, a cultural theme park offering entertainment, food, and shopping from around the world. Visit the Mall of the Emirates. Here you can experience snow and skiing. </li>
+						
+					</ul>
+				</div>
+			</div>
+			<?php } ?>
+			<?php if($id == '6'){ ?>
+				<h2 class="pbmit-title blue">7-day study tour  </h2></div>
+			<div class="row g-0 ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li><b>Arrival in Montreal – Introduction to French-Canadian Culture</b> </li>
+						<li>Arrive in Montreal, a bilingual city blending French and Canadian cultures. Visit McGill University and interact with local students. Explore Old Montreal (Vieux-Montréal), visiting historic landmarks such as the Notre-Dame Basilica and Place Jacques-Cartier. Learn about the city’s colonial past and its evolution into a modern metropolis. In the evening, stroll through Montreal’s Old Port, reflecting on its history as a major trade hub.</li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li><b>Montreal – Industrial Visits and Innovation</b></li>
+						<li>Begin the day with a visit to Hydro-Québec, the largest electricity producer in Canada. Learn about energy production and technological innovations in the renewable energy sector. Afterward, head to the Montreal Science Centre to explore exhibits on robotics, aerospace, and cutting-edge technologies. In the afternoon, visit Plateau Mont-Royal, a neighborhood known for its artistic culture, street art, and creative industries, providing a glimpse into Montreal’s modern cultural scene.</li>
+					</ul>
+						<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li><b>Montreal – Industrial Visits and Cultural Exploration</b></li>
+						<li>Visit Bombardier, a global leader in transportation manufacturing, to explore their work in aerospace and railway technologies. Next, visit Montreal’s Biodome, Botanical Gardens, and Insectarium to learn about biodiversity and the city’s commitment to environmental sustainability. In the afternoon, visit Jean-Talon Market, one of Montreal’s largest public markets, to discover the local food scene and the importance of agriculture in the city’s culture.</li>
+						
+					</ul>
+					<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li><b>Montreal to Ottawa – Political and Educational Exploration</b> </li>
+						<li>Travel to Ottawa, the capital of Canada, and begin with a visit to Parliament Hill to explore the Parliament Buildings and learn about the Canadian political system and history. In the afternoon, visit Carleton University, a leading institution in Ottawa, where students can take a campus tour, learn about academic programs, and interact with local students. Explore Byward Market in the evening, a vibrant area known for its food, art, and culture.</li>
+					</ul>
+					
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+				<h6>Day 5: </h6>
+					<ul class="list-items">
+						<li><b>Ottawa – University Visits and National Heritage</b> </li>
+						<li>Visit University of Ottawa, one of Canada’s largest bilingual institutions. Students will tour the campus, engage with university staff, and learn about the academic and student life in Canada. Afterward, visit Rideau Canal, a UNESCO World Heritage site, and National War Memorial to learn about Canada’s military history. Spend the afternoon at the National Gallery of Canada to explore collections of Canadian and Indigenous art. </li>
+						
+					</ul>
+					<h6>Day 6: </h6>
+					<ul class="list-items">
+						<li><b>Ottawa – Museums, Science, and Technology</b> </li>
+						<li>Visit the Canada Science and Technology Museum, where students can engage with interactive exhibits on technological innovations in fields such as space exploration and medicine. Explore the Canadian Museum of Nature in the afternoon to learn about Canada’s biodiversity, natural history, and conservation efforts. Finally, take a trip to Gatineau Park, a natural reserve near Ottawa, to discuss the importance of environmental conservation and Canada’s diverse ecosystems.</li>
+						
+					</ul>
+					<h6>Day 7: </h6>
+					<ul class="list-items">
+						<li><b>Ottawa – Final Exploration and Departure</b> </li>
+						<li>On the final day, visit Rideau Hall, the official residence of the Governor General of Canada, to understand the role of the monarchy and the Governor General in Canadian governance. Afterward, enjoy a tour of  University of Ottawa. </li>
+						
+					</ul>
+				</div>
+			</div>
+			<?php } ?>
+			<?php if($id == '7'){ ?>
+				<h2 class="pbmit-title blue">5-day study tour  </h2></div>
+			<div class="row g-0 ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li><b>Singapore – Education & Culture</b> </li>
+						<li>Arrive in Singapore and visit the National University of Singapore (NUS) to explore the campus and learn about its academic programs. Afterward, immerse yourself in the vibrant Chinatown by visiting the Chinatown Heritage Centre and experiencing the rich cultural history. End the day by enjoying the stunning views from Marina Bay Sands and watching the Spectra Light Show by the bay.</li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li><b>Singapore – Cultural Immersion & Education</b></li>
+						<li>Visit Singapore Management University (SMU) to learn about business education and innovation. Then, explore the colorful and bustling district of Little India, where you can visit the Sri Veeramakaliamman Temple and soak in the sights, sounds, and smells of this lively neighborhood. In the evening, head to Gardens by the Bay to marvel at the Supertree Grove and Cloud Forest, and enjoy the beautiful gardens.</li>
+					</ul>
+						<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li><b>Singapore to Kuala Lumpur – History & Education</b></li>
+						<li>Travel to Kuala Lumpur and begin your exploration by visiting University of Malaya (UM), Malaysia’s oldest university, to gain insight into local higher education. Next, visit the National Museum of Malaysia to discover the country’s rich cultural history. Wrap up the day with a visit to the Petronas Towers, where you can enjoy panoramic views of the city skyline.</li>
+						
+					</ul>
+					
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+				<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li><b>Kuala Lumpur – Batu Caves & Museum Hopping</b> </li>
+						<li>Start the day with a visit to the Batu Caves, a stunning Hindu temple complex set inside limestone caves. Afterward, explore Kuala Lumpur’s museum scene with a visit to the Islamic Arts Museum Malaysia, showcasing Islamic history and art, and the National Museum of Malaysia to delve deeper into the country’s cultural heritage. You can also visit the Bank Negara Malaysia Museum & Art Gallery for a unique look at Malaysia's financial history.</li>
+					</ul>
+					
+				<h6>Day 5: </h6>
+					<ul class="list-items">
+						<li><b>Malacca – History & Culture</b> </li>
+						<li>ake a day trip to Malacca, a UNESCO World Heritage site, and explore its historical landmarks such as St. Paul’s Hill and A Famosa. Visit Jonker Street to explore traditional markets and local food. You’ll also visit a local university in Malacca to gain insight into the educational system in this historic city.</li>
+						
+					</ul>
+				</div>
+			</div>
+			<?php } ?>
+				<?php if($id == '8'){ ?>
+				<h2 class="pbmit-title blue">4-day study tour  </h2></div>
+			<div class="row g-0 ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li><b>Bangkok – Education & Culture</b> </li>
+						<li>Visit 2 Universities for a campus tour and insight into Thailand’s higher education.</li>
+						<li>Participate in a Thai cooking class to learn about traditional cuisine.</li>
+						<li>Explore Asiatique, The Riverfront in the evening for shopping</li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li><b>Bangkok – Historical Landmarks</b></li>
+						<li>Visit Grand Palace and Wat Phra Kaew to explore Thailand's royal history.</li>
+						<li>Visit the National Museum or Thai Cultural Centre to deepen your cultural understanding.</li>
+					</ul>
+						
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+				<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li><b>Ayutthaya – Ancient Ruins & Local Education</b></li>
+						<li>Take a day trip to Ayutthaya Historical Park to visit ancient temples and ruins.</li>
+						<li>Volunteer with the community for few hours and enjoy a boat ride along the Chao Phraya River in the evening.</li>
+					</ul>
+					
+					
+				<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li><b>Beach Day – Relaxation and Culture</b> </li>
+						<li>Head to Hua Hin, a popular beach destination near Bangkok. Spend the day relaxing on the beach or exploring local markets and attractions.</li>
+						<li>Visit Cicada Market in the evening for local handicrafts, street food, and live performances.</li>
+					</ul>
+					
+				
+				</div>
+			</div>
+			<?php } ?>
+			<?php if($id == '9'){ ?>
+				<h2 class="pbmit-title blue">7-day study tour  </h2></div>
+			<div class="row g-0 ">
+				<div class="col-xl-6 col-md-12 ">
+					<h6>Day 1: </h6>
+					<ul class="list-items">
+						<li><b>Arrival in London – Welcome and Introduction</b> </li>
+						<li>Arrive in London and check into your hotel. Start your visit with a tour of University College London (UCL), exploring the campus and learning about its academic programs. In the evening, head to the British Museum to explore its extensive collection of historical artifacts from around the world, offering a rich introduction to London’s cultural heritage.</li>
+					</ul>
+					<h6>Day 2: </h6>
+					<ul class="list-items">
+						<li><b>London – Iconic Sights & Educational Visits</b></li>
+						<li>Visit King’s College London to gain insight into this prestigious university known for its strong academic programs. Afterward, explore the Houses of Parliament and Big Ben, learning about the UK's government and history. Spend the afternoon at the Science Museum, where interactive exhibits highlight the role of science and technology in shaping the modern world. Conclude the day with panoramic views of the city from the London Eye.</li>
+						
+					</ul>
+					<h6>Day 3: </h6>
+					<ul class="list-items">
+						<li><b>London – Cultural Immersion & Education</b></li>
+						<li>Take a tour of the University of London and learn about its unique educational approach. Then, explore Tate Modern, a leading museum for contemporary art, before enjoying an evening West End show, immersing yourself in the vibrant theatre scene and British culture.</li>
+					</ul>
+				<h6>Day 4: </h6>
+					<ul class="list-items">
+						<li><b>London to Oxford – Academic Focus and History</b> </li>
+						<li>Travel to Oxford and start your day with a guided tour of University of Oxford, exploring famous colleges such as Christ Church and Balliol College. Afterward, visit the Ashmolean Museum, the world’s first university museum, with its vast collection of art and archaeology. In the evening, take a stroll through Oxford’s historic streets, including Radcliffe Square and the iconic Bodleian Library.</li>
+					</ul>
+						
+				</div>
+				<div class="col-xl-6 col-md-12 ">
+				
+					<h6>Day 5: </h6>
+					<ul class="list-items">
+						<li><b>Oxford – Culture and Learning</b> </li>
+						<li>Experience a mock tutorial or lecture at one of the Oxford colleges, immersing yourself in the traditional Oxford academic experience. Afterward, visit the Oxford University Natural History Museum to explore fascinating exhibits, including rare fossils and specimens. Spend the rest of the day walking through the scenic University Parks or along the River Thames, enjoying the natural beauty of Oxford.</li>
+					</ul>
+					<h6>Day 6: </h6>
+					<ul class="list-items">
+						<li><b>Oxford to Manchester – Education and Innovation</b> </li>
+						<li>Travel to Manchester and begin your visit with a tour of the University of Manchester, a global research university known for its cutting-edge facilities and programs. Visit the Museum of Science and Industry, where you can learn about Manchester’s industrial heritage and its role in the history of science and technology. End the day by exploring the Manchester Art Gallery, home to a fine collection of artworks.</li>
+					</ul>
+					<h6>Day 7: </h6>
+					<ul class="list-items">
+						<li><b>Manchester – Culture and Innovation</b> </li>
+						<li>Start your day by visiting Manchester Metropolitan University, known for its emphasis on innovation and creative industries. Explore the stunning John Rylands Library, a neo-Gothic masterpiece filled with rare books and manuscripts. Visit MediaCityUK, the media hub for the BBC and other production companies, to learn about the UK's media industry and innovations in broadcasting and digital media.</li>
+					</ul>
+				
+				</div>
+			</div>
+			<?php } ?>
+		</div>
+	</section>
+	<!--comprehensive global opportunity-->
+	<section class="global-oppurtunuties grey sec-pad">
+		<div class="container">
+			<div class="pbmit-heading-subheading wow fadeInUp animated" data-wow-delay="1s" data-wow-duration="1.5s ">
+			
+				<h2 class="pbmit-title blue text-center">This comprehensive global opportunity offers students to explore the world at an exceptional value </h2></div>
+				
+				<div class="pbmit-column-inner">
+					<div class="tab-icons ">
+						<div class="container">
+							<div class="row justify-content-center">
+								<article class="pbmit-miconheading-style-8 col-xl-2  col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/15.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+													Transportation</h2> </div>
+										</div>
+									</div>
+								</article>
+								<article class="pbmit-miconheading-style-8 col-xl-2   col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/16.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+													Accomodation
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+								<article class="pbmit-miconheading-style-8 col-xl-2   col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/20.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+													Siteseeing
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+								<article class="pbmit-miconheading-style-8 col-xl-2   col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/21.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+													University visits
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+								<article class="pbmit-miconheading-style-8 col-xl-2   col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/19.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+												Full time Tour Director
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+								<article class="pbmit-miconheading-style-8 col-xl-2   col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/18.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+												Individualized learning
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+							
+								<article class="pbmit-miconheading-style-8 col-xl-2 col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/6.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+												Continuous support
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+									<article class="pbmit-miconheading-style-8 col-xl-2 col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/9.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+												Global footprint
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+									<article class="pbmit-miconheading-style-8 col-xl-2 col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/17.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+												24 Hours emergency service
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+								<article class="pbmit-miconheading-style-8 col-xl-2 col-md-4 col-6">
+									<div class="pbmit-ihbox-style-8">
+										<div class="pbmit-ihbox-box ">
+											<div class="pbmit-ihbox-icon">
+												<div class="pbmit-ihbox-icon-wrapper">
+													<div class="pbmit-icon-wrapper pbmit-icon-type-icon"> <img src="images/icons/12.png"> </div>
+												</div>
+											</div>
+											<div class="pbmit-ihbox-contents">
+												<h2 class="pbmit-element-title">
+											Safe Travel
+												</h2> </div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+				
+			</div>
+						</div>	
+	</div>
+	</section>
+	
+	<section class="completetour-package  sec-pad ">
+		<div class="container">
+			<div class="pbmit-heading-subheading wow fadeInUp animated" data-wow-delay="1s" data-wow-duration="1.5s ">
+			
+				<h2 class="pbmit-title blue text-center">Our Complete Tour Package </h2></div>
+				<div class="swiper-slider" data-arrows-class="service-five-arrow" data-autoplay="true" data-loop="false" data-dots="false" data-arrows="true" data-columns="4" data-margin="20" data-effect="slide">
+						<div class="swiper-wrapper">
+							<!-- Slide1 -->
+							<div class="swiper-slide">
+							<a href="tour-pacakages.html">
+                    <div class="tour-main-wrapper">
+                        <div class="tour-img"> <img src="images/services/1.jpeg" class="w-100"> </div>
+                        <div class="tour-img-headding">
+                            <h6>Toronto, Canada</h6>
+                        </div>
                     </div>
-                </div>
-                <div class="pbmit-breadcrumb">
-                    <div class="pbmit-breadcrumb-inner">
-                        <span>
-                            <a title="" href="#" class="home"><span>Global EdConnect</span></a>
-                        </span>
-                        <span class="sep">
-                            <i class="pbmit-base-icon-angle-right"></i>
-                        </span>
-                        <span><span class="post-root post post-post current-item"> Explore Tours</span></span>
-                    </div>
-                </div>
-              
-            </div>
-        </div>
-    </div>
-</div>
-<section class="tour-page-wrapper sec-pad">
-<div class="container-largee">
-<div class="row justify-content-end">
-<div class="col-md-8">
-   <div class="search-bar-wrapper">
-    <input 
-        type="text" 
-        id="tourSearchBar" 
-        class="search-bar" 
-        placeholder="Search for a destination...">
-    <button id="searchButton" class="search-btn">Search</button>
-</div>
- </div>
- </div>
-      
-        <div class="tour-cards" id="tourCardContainer">
-            <div class="tour-card" data-destination="toronto canada">
-                <a href="tour-pacakage-inner.php?id=1">
-                    <img src="images/services/1.jpeg" alt="Toronto, Canada">
-                    <h6>Toronto, Canada</h6>
                 </a>
-            </div>
-            <div class="tour-card" data-destination="washington usa">
-                <a href="tour-pacakage-inner.php?id=2">
-                    <img src="images/services/2.jpeg" alt="Washington, USA">
-                    <h6>Washington, USA</h6>
-                </a>
-            </div>
-            <div class="tour-card" data-destination="japan">
-                <a href="tour-pacakage-inner.php?id=3">
-                    <img src="images/services/3.jpeg" alt="Japan">
-                    <h6>Japan</h6>
-                </a>
-            </div> <div class="tour-card" data-destination="china">
-                <a href="tour-pacakage-inner.php?id=4">
-                    <img src="images/services/china.jpg" alt="China">
-                    <h6>China</h6>
-                </a>
-            </div>
-            <div class="tour-card" data-destination="dubai">
-                <a href="tour-pacakage-inner.php?id=5">
-                    <img src="images/services/dubai.jpg" alt="Dubai">
-                    <h6>Dubai</h6>
-                </a>
-            </div>
-            <div class="tour-card" data-destination="ottawa montreal">
-                <a href="tour-pacakage-inner.php?id=6">
-                    <img src="images/services/canada.jpg" alt="Ottawa and Montreal">
-                    <h6>Ottawa and Montreal</h6>
-                </a>
-            </div>
-            <div class="tour-card" data-destination="singapore">
-                <a href="tour-pacakage-inner.php?id=7">
-                    <img src="images/services/singapore.jpg" alt="Singapore">
-                    <h6>Singapore</h6>
-                </a>
-            </div>
-            <div class="tour-card" data-destination="thailand">
-                <a href="tour-pacakage-inner.php?id=8">
-                    <img src="images/services/thailand.jpg" alt="Thailand">
-                    <h6>Thailand</h6>
-                </a>
-            </div>
-            <div class="tour-card" data-destination="uk">
-                <a href="tour-pacakage-inner.php?id=9">
-                    <img src="images/services/UK.jpg" alt="UK">
-                    <h6>UK</h6>
-                </a>
-            </div>
-        </div> </div>
-    </section>
+							</div>
+							<div class="swiper-slide">
+								<a href="tour-pacakages.html">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/2.jpeg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>Washington, USA</h6> </div>
+						</div>
+					</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="tour-pacakages.html">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/3.jpeg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>Japan</h6> </div>
+						</div>
+					</a>
+							</div>
+								<div class="swiper-slide">
+								<a href="tour-pacakages.html">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/china.jpg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>China</h6> </div>
+						</div>
+					</a>
+							</div>
+								<div class="swiper-slide">
+								<a href="tour-pacakage-inner.php?id=5">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/dubai.jpg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>Dubai</h6> </div>
+						</div>
+					</a>
+							</div>
+								<div class="swiper-slide">
+								<a href="tour-pacakage-inner.php?id=6">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/canada.jpg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>Ottawa and Montreal</h6> </div>
+						</div>
+					</a>
+							</div>
+								<div class="swiper-slide">
+								<a href="tour-pacakage-inner.php?id=7">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/singapore.jpg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>Singapore</h6> </div>
+						</div>
+					</a>
+							</div>
+								<div class="swiper-slide">
+								<a href="tour-pacakage-inner.php?id=8">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/thailand.jpg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>Thailand</h6> </div>
+						</div>
+					</a>
+							</div>
+								<div class="swiper-slide">
+							<a href="tour-pacakage-inner.php?id=9">
+						<div class="tour-main-wrapper">
+							<div class="tour-img"> <img src="images/services/UK.jpg" class="w-100"> </div>
+							<div class="tour-img-headding">
+								<h6>UK</h6> </div>
+						</div>
+					</a>
+							</div>
+				
+						</div>
+					</div>
+				</div>
+	</section>
 <!-- footer -->
 <footer class="site-footer footer-style-1 pbmit-bg-color-secondary">
 	<div class="footer-wrap pbmit-footer-widget-area">
@@ -272,11 +940,11 @@
 					<h6>Sitemap</h6>
 					<aside class="widget pbmit-two-column-menu">
 						<ul>
-							<li><a href="index.php">Home</a></li>
-							<li><a href="about.php">About Us</a></li>
-							<li><a href="tour-pacakages.php">Explore Tours</a></li>
-							<li><a href="whats-new.php">What's New</a></li>
-							<li><a href="contact.php">Get In Touch</a></li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="tour-pacakages.html">Explore Tours</a></li>
+							<li><a href="whats-new.html">What's New</a></li>
+							<li><a href="contact.html">Get In Touch</a></li>
 						</ul>
 					</aside>
 				</div>
@@ -284,10 +952,10 @@
 					<h6>Quick Links</h6>
 					<aside class="widget pbmit-two-column-menu">
 						<ul>
-							<li><a href="tour-pacakage-inner.php?id=1">Toronto</a></li>
-							<li><a href="tour-pacakage-inner.php?id=2">Washington</a></li>
-							<li><a href="tour-pacakage-inner.php?id=3">Japan</a></li>
-							<li><a href="tour-pacakage-inner.php?id=4">China</a></li>
+							<li><a href="tour-pacakages.html">Toronto</a></li>
+							<li><a href="tour-pacakages.html">Washington</a></li>
+							<li><a href="tour-pacakages.html">Japan</a></li>
+							<li><a href="tour-pacakages.html">China</a></li>
 						</ul>
 					</aside>
 				</div>
@@ -305,7 +973,7 @@
 		<div class="pbmit-footer-text-area ">
 			<div class="container">
 				<div class="row pbmit-footer-text-inner footer-columns-row">
-					<div class="col-xl-10 col-md-12 pbmit-footer-copyright-text-area"> Copyright © 2024 GlobalEdConnect. All Rights Reserved. Designed By <a href="#">Komquest Solutions.</a></div>
+					<div class="col-xl-10 col-md-12 pbmit-footer-copyright-text-area"> Copyright © 2024 GlobalEdConnect. All Rights Reserved. </div>
 				</div>
 			</div>
 		</div>
